@@ -1,0 +1,113 @@
+p{
+	margin-top: 25px;
+	font-size: 125%;
+	padding: 20px;
+}
+
+#abc {
+	width: 130px;
+	border: 1px solid black;
+	text-align: center;
+	background-color: pink;
+	float: right;
+	margin: 0;
+	padding: 2px;
+	clear: left;
+	font-size: 175%;
+}
+
+#b {
+	width: 130px;
+	border: 1px solid black;
+	text-align: center;
+	background-color: indianred;
+	float: right;
+	margin: 0;
+	font-size: 175%;
+	padding: 2px;
+	clear: left;
+	color: white;
+}
+
+#c {
+	width: 130px;
+	border: 1px solid black;
+	text-align: center;
+	background-color: yellow;
+	float: right;
+	font-size: 175%;
+	margin: 0;
+	padding: 2px;
+	clear: left;
+}
+section{
+	border: 1px solid black;
+	margin: 15px;
+	width: 90%;
+	height: 190px;
+	font-family: helvetica;
+	background-color: gray;
+}
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	font-size: 200%;
+	text-align: center;
+}
+
+.row {
+	width: 100%;
+}
+
+@media (min-width: 992px){
+	section{
+	border: 1px solid black;
+	margin: 15px;
+	width: 90%;
+	height: 235px;
+	font-family: helvetica;
+	background-color: gray;
+}
+	#first{
+		width: 30%;
+		float: left;
+	}
+	#second{
+		width: 30%;
+		float: left;
+	}
+	#third{
+		width: 30%;
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	section{
+	border: 1px solid black;
+	margin: 15px;
+	width: 90%;
+	height: 210px;
+	font-family: helvetica;
+	background-color: gray;
+}
+	#first{
+		width: 45%;
+		float: left;
+	}
+	#second{
+		width: 45%;
+		float: left;
+	}
+	#third{
+		width: 93%;
+		float: left;
+	}
+}
+
+body{
+	padding: 10px;
+}
+
